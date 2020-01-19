@@ -19,6 +19,9 @@ function main_call_setupContent() {
   // Our Gun
   setup_gun_SS();
 
-  // Create a zombie
-  SZ_createZombie(3);
+  // Create all our 6 zombies
+  for (var i = 0; i < 7; i++) {
+    //this will get called 6 times
+    SZ_createZombie(i);
+  }
 }
