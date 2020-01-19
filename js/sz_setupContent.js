@@ -18,4 +18,7 @@ function main_call_setupContent() {
   // Any sprite sheets?
   // Our Gun
   setup_gun_SS();
+
+  // Create a zombie
+  SZ_createZombie(3);
 }
